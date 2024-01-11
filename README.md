@@ -8,7 +8,7 @@ Project has been recreated from scratch with Angualr 6 CLI.
 
 1. install ngx-soap and dependencies
 
-    `npm install --save ngx-soap`
+    `npm install --save ngx-soap2`
 
     `npm install --save buffer concat-stream core-js crypto-js events lodash sax stream uuid`
 
@@ -53,10 +53,9 @@ Project has been recreated from scratch with Angualr 6 CLI.
     }
     ```
 
-
 ## Local development
 
-1. `git clone -b angular6-cli-ilb https://github.com/lula/ngx-soap.git`
+1. `git clone -b angular6-cli-ilb https://github.com/seyfer/ngx-soap.git`
 2. `cd ngx-soap && npm install`
 3. `ng build ngx-soap`
 4. `ng test ngx-soap`
@@ -64,5 +63,10 @@ Project has been recreated from scratch with Angualr 6 CLI.
 
 See example app under `src/app`
 
+## Author
+[Luca Lulani](https://github.com/lula)
+
 ## Contributors
+[Oleg Abrazhaev](https://github.com/seyfer)
+[markward](https://github.com/marcward)
 [Andrei Bespamiatnov](https://github.com/AndreyBespamyatnov)
