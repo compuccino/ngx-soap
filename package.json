@@ -1,5 +1,5 @@
 {
-  "name": "ngx-soap2",
+  "name": "ngx-soap-next",
   "version": "0.8.0",
   "description": "SOAP service for Angular4",
   "main": "src/index.js",

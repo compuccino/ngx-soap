@@ -8,7 +8,7 @@ Project has been recreated from scratch with Angualr 6 CLI.
 
 1. install ngx-soap and dependencies
 
-   `npm install --save ngx-soap2`
+   `npm install --save ngx-soap-next`
 
    `npm install --save buffer concat-stream core-js crypto-js events lodash sax stream uuid`
 
