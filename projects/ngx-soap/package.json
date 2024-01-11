@@ -1,9 +1,9 @@
 {
-  "name": "ngx-soap",
+  "name": "ngx-soap2",
   "version": "0.7.0",
   "description": "SOAP service for Angular",
-  "homepage": "https://github.com/lula/ngx-soap",
-  "author": "Luca Lulani",
+  "homepage": "https://github.com/seyfer/ngx-soap",
+  "author": "Luca Lulani, marcward, Oleg Abrazhaev",
   "license": "MIT",
   "keywords": [
     "Angular",

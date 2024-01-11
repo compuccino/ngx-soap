@@ -1,5 +1,5 @@
 {
-  "name": "ngx-soap",
+  "name": "ngx-soap2",
   "version": "0.7.0",
   "description": "SOAP service for Angular4",
   "main": "src/index.js",
@@ -27,16 +27,16 @@
     "SOAP",
     "WSDL"
   ],
-  "author": "Luca Lulani",
+  "author": "Luca Lulani, marcward, Oleg Abrazhaev",
   "license": "MIT",
   "readme": "README.md",
-  "homepage": "https://github.com/lula/ngx-soap",
+  "homepage": "https://github.com/seyfer/ngx-soap",
   "bugs": {
-    "url": "https://github.com/lula/ngx-soap/issues"
+    "url": "https://github.com/seyfer/ngx-soap/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lula/ngx-soap.git"
+    "url": "https://github.com/seyfer/ngx-soap.git"
   },
   "dependencies": {
     "@angular/animations": "^10.1.2",
