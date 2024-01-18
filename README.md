@@ -4,6 +4,9 @@ Simple SOAP client for Angular based on amazing [node-soap](https://github.com/v
 
 Project has been recreated from scratch with Angular CLI.
 
+Please be aware, this package version number will be equal to the corresponding Angular version
+0.10.x = v10, 0.11.x = v11, ... 0.16.x = v16
+
 ## npm
 
 1. install ngx-soap and dependencies
@@ -53,7 +56,7 @@ Project has been recreated from scratch with Angular CLI.
     }
     ```
 
-## Local development
+## Local development example
 
 1. `git clone -b angular-cli-ilb https://github.com/seyfer/ngx-soap.git`
 2. `cd ngx-soap && npm install`
