@@ -19,8 +19,8 @@
     "tslib": "^2.6.2"
   },
   "peerDependencies": {
-    "@angular/common": ">=6.0.0 <=12.2.17",
-    "@angular/core": ">=6.0.0 <=12.2.17",
+    "@angular/common": ">=10.0.0 <=13.4.0",
+    "@angular/core": ">=10.0.0 <=13.4.0",
     "bluebird": "^3.7.2",
     "buffer": "^5.1.0",
     "concat-stream": "^1.6.2",
@@ -32,9 +32,9 @@
     "rxjs": "^6.5.3",
     "sax": "^1.2.4",
     "stream": "0.0.2",
-    "tslib": "^2.0.0",
+    "tslib": "^2.6.2",
     "uuid": "^3.3.2",
     "xml-crypto": "^1.5.3",
-    "zone.js": "^0.11.8"
+    "zone.js": "~0.11.8"
   }
 }
