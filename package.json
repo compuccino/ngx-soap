@@ -1,7 +1,7 @@
 {
-  "name": "ngx-soap",
-  "version": "0.7.0",
-  "description": "SOAP service for Angular4",
+  "name": "ngx-soap-next",
+  "version": "0.14.0",
+  "description": "SOAP service for Angular",
   "main": "src/index.js",
   "module": "src/index.js",
   "jsnext:main": "src/index.js",
@@ -14,31 +14,38 @@
     "build": "npm run bundle && npm run copy",
     "copy": "node tools/bundle-scripts/copy-files.js && node tools/bundle-scripts/cleanup.js",
     "test": "rimraf spec/out && tsc -p tsconfig.spec.json && jasmine",
-    "build:lib": "ng build --prod ngx-soap && cp README.md dist/ngx-soap && cp LICENSE dist/ngx-soap"
+    "build:lib": "ng build --configuration production ngx-soap && cp README.md dist/ngx-soap && cp LICENSE dist/ngx-soap",
+    "pack": "cd ./dist/ngx-soap/ && npm pack && cd ../.. && cp dist/ngx-soap/ngx*tgz ..",
+    "publish": "cd ./dist/ngx-soap/ && npm publish",
+    "publish:dry-run": "cd ./dist/ngx-soap/ && npm publish --dry-run"
   },
   "keywords": [
     "Angular",
-    "Angular2",
-    "Angular4",
-    "Angular5",
-    "Angular6",
-    "Angular7",
+    "Angular10",
+    "Angular11",
+    "Angular12",
+    "Angular13",
+    "Angular14",
     "@angular",
     "SOAP",
     "WSDL"
   ],
-  "author": "Luca Lulani",
+  "author": "Luca Lulani, marcward, Oleg Abrazhaev",
   "license": "MIT",
   "readme": "README.md",
-  "homepage": "https://github.com/lula/ngx-soap",
+  "homepage": "https://github.com/seyfer/ngx-soap",
   "bugs": {
-    "url": "https://github.com/lula/ngx-soap/issues"
+    "url": "https://github.com/seyfer/ngx-soap/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lula/ngx-soap.git"
+    "url": "https://github.com/seyfer/ngx-soap.git"
   },
   "dependencies": {
+    "@angular/flex-layout": "^14.0.0-beta.41",
+    "@angular/platform-browser-dynamic": "14.3.0",
+    "@angular/router": "^14.3.0",
+    "bluebird": "^3.7.2",
     "@angular/animations": "^14.3.0",
     "@angular/cdk": "^14.2.7",
     "@angular/common": "^14.3.0",
@@ -64,20 +71,24 @@
     "zone.js": "~0.11.8"
   },
   "devDependencies": {
+    "@angular-devkit/build-angular": "^14.2.13",
+    "@types/estree": "^1.0.5",
     "@angular/cli": "^14.2.13",
     "@angular/language-service": "^14.3.0",
     "@types/jasmine": "~3.6.0",
     "@types/jasminewd2": "~2.0.3",
-    "@types/node": "^12.11.1",
+    "@types/node": "^14.18.63",
+    "codelyzer": "^6.0.2",
     "jasmine-core": "~3.6.0",
     "jasmine-spec-reporter": "~5.0.0",
     "karma": "~6.4.2",
     "karma-chrome-launcher": "~3.1.0",
     "karma-coverage-istanbul-reporter": "~3.0.2",
-    "karma-jasmine": "~4.0.0",
-    "karma-jasmine-html-reporter": "^1.5.0",
+    "karma-jasmine": "~5.0.0",
+    "karma-jasmine-html-reporter": "1.5.0",
+    "ng-packagr": "^14.3.0",
     "protractor": "~7.0.0",
     "ts-node": "~5.0.1",
-    "typescript": "~4.3.5"
+    "typescript": "~4.6.4"
   }
 }
