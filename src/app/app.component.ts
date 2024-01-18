@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NgxSoapService, ISoapMethod, Client, ISoapMethodResponse } from 'ngx-soap';
+import { NgxSoapService, Client, ISoapMethodResponse } from 'ngx-soap-next';
 
 @Component({
   selector: 'app-root',

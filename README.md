@@ -1,14 +1,17 @@
-# ngx-soap
+# ngx-soap-next
 
-Simple SOAP client for Angular 6/10 based on amazing [node-soap](https://github.com/vpulim/node-soap).
+Simple SOAP client for Angular based on amazing [node-soap](https://github.com/vpulim/node-soap).
 
-Project has been recreated from scratch with Angualr 6 CLI.
+Project has been recreated from scratch with Angular CLI.
+
+Please be aware, this package version number will be equal to the corresponding Angular version
+0.10.x = v10, 0.11.x = v11, ... 0.16.x = v16
 
 ## npm
 
 1. install ngx-soap and dependencies
 
-    `npm install --save ngx-soap`
+    `npm install --save ngx-soap-next`
 
     `npm install --save buffer concat-stream core-js crypto-js events lodash sax stream uuid`
 
@@ -53,10 +56,9 @@ Project has been recreated from scratch with Angualr 6 CLI.
     }
     ```
 
+## Local development example
 
-## Local development
-
-1. `git clone -b angular6-cli-ilb https://github.com/lula/ngx-soap.git`
+1. `git clone -b angular-cli-ilb https://github.com/seyfer/ngx-soap.git`
 2. `cd ngx-soap && npm install`
 3. `ng build ngx-soap`
 4. `ng test ngx-soap`
@@ -64,5 +66,10 @@ Project has been recreated from scratch with Angualr 6 CLI.
 
 See example app under `src/app`
 
+## Author
+[Luca Lulani](https://github.com/lula)
+
 ## Contributors
+[Oleg Abrazhaev](https://github.com/seyfer)
+[markward](https://github.com/marcward)
 [Andrei Bespamiatnov](https://github.com/AndreyBespamyatnov)
