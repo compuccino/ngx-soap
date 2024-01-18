@@ -26,8 +26,5 @@
         "dist/ngx-soap/*"
       ]
     }
-  },
-  "angularCompilerOptions": {
-    "enableIvy": false
   }
 }
