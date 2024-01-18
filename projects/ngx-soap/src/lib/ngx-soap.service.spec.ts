@@ -1,9 +1,8 @@
 import { TestBed } from '@angular/core/testing';
-import { HttpClientModule, HttpRequest } from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
 import { HttpTestingController, HttpClientTestingModule } from '@angular/common/http/testing';
 
-import { ISoapMethodResponse } from 'ngx-soap/ngx-soap';
-import { NgxSoapService } from './ngx-soap.service';
+import { ISoapMethodResponse, NgxSoapService } from './ngx-soap.service';
 import { NgxSoapModule } from './ngx-soap.module';
 
 
