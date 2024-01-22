@@ -10,11 +10,11 @@ import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { FormsModule } from '@angular/forms';
 
-import { NgxSoapModule } from 'ngx-soap-next';
+import { NgxSoapModule } from '../../projects/ngx-soap/src/public_api';
 import { AppComponent } from './app.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
-const ANGULAR_MATERIAL_MODULES = [
+export const ANGULAR_MATERIAL_MODULES = [
   MatToolbarModule, MatInputModule, MatButtonModule, MatCardModule,
   MatProgressBarModule, MatFormFieldModule
 ];
