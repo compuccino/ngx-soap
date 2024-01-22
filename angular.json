@@ -151,6 +151,7 @@
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
             "main": "projects/ngx-soap/src/test.ts",
+            "polyfills": "projects/ngx-soap/src/polyfills.ts",
             "tsConfig": "projects/ngx-soap/tsconfig.spec.json",
             "karmaConfig": "projects/ngx-soap/karma.conf.js"
           }
