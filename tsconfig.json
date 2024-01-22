@@ -25,6 +25,9 @@
       ],
       "ngx-soap/*": [
         "dist/ngx-soap/*"
+      ],
+      "@angular/*": [
+        "./node_modules/@angular/*"
       ]
     }
   }
