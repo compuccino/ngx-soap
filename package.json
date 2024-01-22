@@ -1,6 +1,6 @@
 {
   "name": "ngx-soap-next",
-  "version": "0.12.0",
+  "version": "0.12.1",
   "description": "SOAP service for Angular",
   "main": "src/index.js",
   "module": "src/index.js",
@@ -59,7 +59,6 @@
     "events": "^3.0.0",
     "httpntlm": "^1.7.6",
     "lodash": "^4.17.10",
-    "ngx-soap-next": "^0.9.1",
     "process": "^0.11.10",
     "rxjs": "^6.5.3",
     "sax": "^1.2.4",
