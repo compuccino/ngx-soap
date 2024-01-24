@@ -5,10 +5,16 @@
     "types": [
       "jasmine",
       "node"
-    ]
+    ],
+    "paths": {
+      "@angular/*": [
+        "./node_modules/@angular/*"
+      ]
+    }
   },
   "files": [
-    "src/test.ts"
+    "src/test.ts",
+    "src/polyfills.ts"
   ],
   "include": [
     "**/*.spec.ts",
