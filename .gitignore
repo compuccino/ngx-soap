@@ -10,5 +10,5 @@ tools/bin
 tools/test
 dist
 spec/out
-
-node_modules/
+.angular/cache
+projects/ngx-soap/package-lock.json
