@@ -10,7 +10,5 @@ tools/bin
 tools/test
 dist
 spec/out
-
-node_modules/
-
-ngx-soap-0.7.0.tgz
+.angular/cache
+projects/ngx-soap/package-lock.json

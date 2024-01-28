@@ -14,7 +14,7 @@ import { NgxSoapModule } from '../../projects/ngx-soap/src/public_api';
 import { AppComponent } from './app.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
-const ANGULAR_MATERIAL_MODULES = [
+export const ANGULAR_MATERIAL_MODULES = [
   MatToolbarModule, MatInputModule, MatButtonModule, MatCardModule,
   MatProgressBarModule, MatFormFieldModule
 ];

@@ -332,7 +332,7 @@ Client.prototype._invoke = function(method, args, location, options, extraHeader
             }
         }),
         mergeMap((body: any) =>
-            (<HttpClient>self.httpClient)
+            (self.httpClient)
                 .post(location, body, {
                     headers: headers,
                     responseType: 'text',
@@ -411,6 +411,8 @@ Client.prototype._invoke = function(method, args, location, options, extraHeader
 };
 
 Client.prototype.call = function(method: string, body: any, options?: any, extraHeaders?: any): Observable<any> {
+    // console.log('call', method);
+
     if (!this[method]) {
         return throwError(`Method ${method} not found`);
     }
