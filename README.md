@@ -56,7 +56,13 @@ Please be aware, this package version number will be equal to the corresponding 
     }
     ```
 
-## Local development example
+## Build and publish the lib
+
+1. `npm run test:lib`
+2. `npm run build:lib`
+3. Confirm `npm run publish:dry-run`
+
+## Local example development 
 
 1. `git clone -b angular-cli-ilb https://github.com/seyfer/ngx-soap.git`
 2. `cd ngx-soap && npm install`
