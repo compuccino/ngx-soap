@@ -44,7 +44,7 @@
     "url": "https://github.com/seyfer/ngx-soap.git"
   },
   "dependencies": {
-    "@angular-devkit/build-angular": "^16.2.14",
+    "@angular-devkit/build-angular": "^18.2.4",
     "@angular/animations": "^16.2.12",
     "@angular/cdk": "^16.2.14",
     "@angular/common": "^16.2.12",
@@ -79,7 +79,7 @@
     "zone.js": "^0.13.3"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^16.2.14",
+    "@angular-devkit/build-angular": "^18.2.4",
     "@angular/cli": "^16.2.14",
     "@angular/language-service": "^16.2.12",
     "@types/estree": "^1.0.5",
